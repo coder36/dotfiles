@@ -1,0 +1,7 @@
+[user]
+        email = mark.middleton@emergn.com
+        name = Mark Middleton
+[http]
+	proxy = http://127.0.0.1:3128
+[https]
+	proxy = http://127.0.0.1:3128
