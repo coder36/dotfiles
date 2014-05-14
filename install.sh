@@ -1,4 +1,6 @@
 #!/bin/bash
+rm -rf ~/.dotfiles
+git clone https://github.com/coder36/dotfiles.git ~/.dotfiles
 old_dotfiles=~/".old_dotfiles_$(date +%s)"
 mkdir $old_dotfiles
 
