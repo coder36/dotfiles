@@ -74,3 +74,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 #export TERM="xterm-256color"
+if [ -f /etc/profile.d/proxy.sh ]; then
+  source /etc/profile.d/proxy.sh
+fi
