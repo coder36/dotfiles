@@ -11,6 +11,9 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'bling/vim-airline'
 Bundle 'henrik/vim-ruby-runner'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-dispatch'
+Bundle 'http://github.com/ervandew/supertab.git'
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " ruby

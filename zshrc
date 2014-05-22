@@ -77,3 +77,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 if [ -f /etc/profile.d/proxy.sh ]; then
   source /etc/profile.d/proxy.sh
 fi
+
+alias 'rspec=rspec --color'
+alias 'tmux=tmux -u'
+alias 'vi=vim'
