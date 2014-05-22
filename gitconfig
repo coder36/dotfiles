@@ -1,3 +1,7 @@
 [user]
-        email = markymiddleton@gmail.com
+        email = mark_middleton@slc.co.uk
         name = Mark Middleton
+[http]
+        proxy = http://127.0.0.1:3128
+[https]
+        proxy = http://127.0.0.1:3128
