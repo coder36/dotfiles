@@ -39,3 +39,6 @@ let g:RubyRunner_keep_focus_key = '<Leader>r'
 let g:RubyRunner_window_size = 10
 
 set bg=dark
+set cursorline
+hi CursorLine   cterm=NONE ctermbg=darkblue ctermfg=white
+
