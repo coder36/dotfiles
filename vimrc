@@ -42,4 +42,4 @@ let g:RubyRunner_window_size = 10
 set bg=dark
 set cursorline
 hi CursorLine   cterm=NONE ctermbg=darkblue ctermfg=white
-
+let g:NERDTreeDirArrows=0
