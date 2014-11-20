@@ -32,6 +32,7 @@ set laststatus=2
 let g:airline_theme='jellybeans'
 nmap <leader><left> :bp!<CR>
 nmap <leader><right> :bn!<CR>
+nmap <leader>d :bp<CR>:bd #<CR>
 
 " ruby runner
 let g:RubyRunner_open_below = 1
