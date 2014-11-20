@@ -17,6 +17,7 @@ Bundle 'http://github.com/ervandew/supertab.git'
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " ruby
+set encoding=utf-8
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
