@@ -9,7 +9,8 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'bling/vim-airline'
+"Bundle 'bling/vim-airline'
+Bundle 'https://github.com/fholgado/minibufexpl.vim.git'
 Bundle 'henrik/vim-ruby-runner'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-dispatch'
@@ -27,9 +28,9 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
 
 " airline
-let g:airline#extensions#tabline#enabled = 1
-set laststatus=2
-let g:airline_theme='jellybeans'
+"let g:airline#extensions#tabline#enabled = 1
+"set laststatus=2
+"let g:airline_theme='jellybeans'
 nmap <leader><left> :bp!<CR>
 nmap <leader><right> :bn!<CR>
 nmap <leader>d :bp<CR>:bd #<CR>
@@ -41,6 +42,6 @@ let g:RubyRunner_keep_focus_key = '<Leader>r'
 let g:RubyRunner_window_size = 10
 
 set bg=dark
-set cursorline
-hi CursorLine   cterm=NONE ctermbg=darkblue ctermfg=white
+"set cursorline
+"hi CursorLine   cterm=NONE ctermbg=darkblue ctermfg=white
 let g:NERDTreeDirArrows=0
